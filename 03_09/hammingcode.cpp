@@ -33,7 +33,7 @@ int main()
   err[1]=atemp[2]^atemp[3]^atemp[6]^atemp[7];
   err[0]=atemp[4]^atemp[5]^atemp[6]^atemp[7];
 
-  cout<<err[0]<<err[1]<<err[2];                                     
+  cout<<err[0]<<err[1]<<err[2];
   if((err[0]+err[1]+err[2]) == 0)
   {
     printf("\nNo error.");

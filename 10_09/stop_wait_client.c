@@ -43,7 +43,7 @@ strcpy(message," ");
       if(!strcmp(response,"$"))
         break;
 
-      printf("\nYou: ");
+      printf("\nYou (ack/nack): ");
       gets(message);
 
       //Sending message to server
